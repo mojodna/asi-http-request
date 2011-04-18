@@ -165,7 +165,6 @@
     
     // add in params from the query string
     for (NSString *pair in [[url query] componentsSeparatedByString:@"&"]) {
-        NSLog(@"Query string params: %@", [pair componentsSeparatedByString:@"="]);
         [params addObject:[pair componentsSeparatedByString:@"="]];
     }
     
