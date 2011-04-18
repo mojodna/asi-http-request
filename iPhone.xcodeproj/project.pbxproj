@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D069FC5135CD7A7001D3692 /* ASIFormDataRequest+OAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D069FC2135CD7A7001D3692 /* ASIFormDataRequest+OAuth.m */; };
+		5D069FC6135CD7A7001D3692 /* ASIFormDataRequest+OAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D069FC2135CD7A7001D3692 /* ASIFormDataRequest+OAuth.m */; };
+		5D069FC7135CD7A7001D3692 /* ASIFormDataRequest+OAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D069FC2135CD7A7001D3692 /* ASIFormDataRequest+OAuth.m */; };
+		5D069FC8135CD7A7001D3692 /* ASIHTTPRequest+OAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D069FC4135CD7A7001D3692 /* ASIHTTPRequest+OAuth.m */; };
+		5D069FC9135CD7A7001D3692 /* ASIHTTPRequest+OAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D069FC4135CD7A7001D3692 /* ASIHTTPRequest+OAuth.m */; };
+		5D069FCA135CD7A7001D3692 /* ASIHTTPRequest+OAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D069FC4135CD7A7001D3692 /* ASIHTTPRequest+OAuth.m */; };
+		5D069FCE135CD7DC001D3692 /* ASIBase64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D069FCC135CD7DC001D3692 /* ASIBase64Transcoder.c */; };
 		B50C1823121C26DB0055FCAB /* ClientCertificateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B50C1822121C26DB0055FCAB /* ClientCertificateTests.m */; };
 		B50C182C121C26FA0055FCAB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B50C182B121C26FA0055FCAB /* Security.framework */; };
 		B50C1848121C27510055FCAB /* client.p12 in Resources */ = {isa = PBXBuildFile; fileRef = B50C1847121C27510055FCAB /* client.p12 */; };
@@ -142,6 +149,12 @@
 
 /* Begin PBXFileReference section */
 		1D6058910D05DD3D006BFB54 /* ASIHTTPRequest iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ASIHTTPRequest iPhone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D069FC1135CD7A7001D3692 /* ASIFormDataRequest+OAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASIFormDataRequest+OAuth.h"; sourceTree = "<group>"; };
+		5D069FC2135CD7A7001D3692 /* ASIFormDataRequest+OAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASIFormDataRequest+OAuth.m"; sourceTree = "<group>"; };
+		5D069FC3135CD7A7001D3692 /* ASIHTTPRequest+OAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASIHTTPRequest+OAuth.h"; sourceTree = "<group>"; };
+		5D069FC4135CD7A7001D3692 /* ASIHTTPRequest+OAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASIHTTPRequest+OAuth.m"; sourceTree = "<group>"; };
+		5D069FCC135CD7DC001D3692 /* ASIBase64Transcoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ASIBase64Transcoder.c; sourceTree = "<group>"; };
+		5D069FCD135CD7DC001D3692 /* ASIBase64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIBase64Transcoder.h; sourceTree = "<group>"; };
 		B50C1821121C26DB0055FCAB /* ClientCertificateTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientCertificateTests.h; sourceTree = "<group>"; };
 		B50C1822121C26DB0055FCAB /* ClientCertificateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientCertificateTests.m; sourceTree = "<group>"; };
 		B50C182B121C26FA0055FCAB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -368,6 +381,12 @@
 				B53E6D911257B45800C1E79A /* ASIDataDecompressor.m */,
 				B53E6D941257B45800C1E79A /* ASIDataCompressor.h */,
 				B53E6D931257B45800C1E79A /* ASIDataCompressor.m */,
+				5D069FCC135CD7DC001D3692 /* ASIBase64Transcoder.c */,
+				5D069FCD135CD7DC001D3692 /* ASIBase64Transcoder.h */,
+				5D069FC1135CD7A7001D3692 /* ASIFormDataRequest+OAuth.h */,
+				5D069FC2135CD7A7001D3692 /* ASIFormDataRequest+OAuth.m */,
+				5D069FC3135CD7A7001D3692 /* ASIHTTPRequest+OAuth.h */,
+				5D069FC4135CD7A7001D3692 /* ASIHTTPRequest+OAuth.m */,
 				B5873FC010FF28CA001E145F /* S3 */,
 				B5873FC710FF28CA001E145F /* CloudFiles */,
 				B55B60510F765A3C0064029C /* Tests */,
@@ -781,6 +800,9 @@
 				B53E6D9E1257B46100C1E79A /* ASIWebPageRequest.m in Sources */,
 				B57AF5921258B3F1002A1F0C /* WebPageViewController.m in Sources */,
 				B57AF5961258B401002A1F0C /* RequestProgressCell.m in Sources */,
+				5D069FC5135CD7A7001D3692 /* ASIFormDataRequest+OAuth.m in Sources */,
+				5D069FC8135CD7A7001D3692 /* ASIHTTPRequest+OAuth.m in Sources */,
+				5D069FCE135CD7DC001D3692 /* ASIBase64Transcoder.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -824,6 +846,8 @@
 				B53E6D961257B45800C1E79A /* ASIDataCompressor.m in Sources */,
 				B53E6D9D1257B46100C1E79A /* ASIWebPageRequest.m in Sources */,
 				B50D532C126C87ED0022EA6F /* BlocksTests.m in Sources */,
+				5D069FC6135CD7A7001D3692 /* ASIFormDataRequest+OAuth.m in Sources */,
+				5D069FC9135CD7A7001D3692 /* ASIHTTPRequest+OAuth.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -855,6 +879,8 @@
 				B53E6D9F1257B46100C1E79A /* ASIWebPageRequest.m in Sources */,
 				B57AF5931258B3F1002A1F0C /* WebPageViewController.m in Sources */,
 				B57AF5971258B401002A1F0C /* RequestProgressCell.m in Sources */,
+				5D069FC7135CD7A7001D3692 /* ASIFormDataRequest+OAuth.m in Sources */,
+				5D069FCA135CD7A7001D3692 /* ASIHTTPRequest+OAuth.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
