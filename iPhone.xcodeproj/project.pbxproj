@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D06A015135CDD31001D3692 /* ASIBase64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D06A00F135CDD31001D3692 /* ASIBase64Transcoder.c */; };
+		5D06A016135CDD31001D3692 /* ASIBase64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D06A00F135CDD31001D3692 /* ASIBase64Transcoder.c */; };
+		5D06A017135CDD31001D3692 /* ASIBase64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D06A00F135CDD31001D3692 /* ASIBase64Transcoder.c */; };
+		5D06A018135CDD31001D3692 /* ASIFormDataRequest+OAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D06A012135CDD31001D3692 /* ASIFormDataRequest+OAuth.m */; };
+		5D06A019135CDD31001D3692 /* ASIFormDataRequest+OAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D06A012135CDD31001D3692 /* ASIFormDataRequest+OAuth.m */; };
+		5D06A01A135CDD31001D3692 /* ASIFormDataRequest+OAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D06A012135CDD31001D3692 /* ASIFormDataRequest+OAuth.m */; };
+		5D06A01B135CDD31001D3692 /* ASIHTTPRequest+OAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D06A014135CDD31001D3692 /* ASIHTTPRequest+OAuth.m */; };
+		5D06A01C135CDD31001D3692 /* ASIHTTPRequest+OAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D06A014135CDD31001D3692 /* ASIHTTPRequest+OAuth.m */; };
+		5D06A01D135CDD31001D3692 /* ASIHTTPRequest+OAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D06A014135CDD31001D3692 /* ASIHTTPRequest+OAuth.m */; };
 		B50C1823121C26DB0055FCAB /* ClientCertificateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B50C1822121C26DB0055FCAB /* ClientCertificateTests.m */; };
 		B50C182C121C26FA0055FCAB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B50C182B121C26FA0055FCAB /* Security.framework */; };
 		B50C1848121C27510055FCAB /* client.p12 in Resources */ = {isa = PBXBuildFile; fileRef = B50C1847121C27510055FCAB /* client.p12 */; };
@@ -143,6 +152,12 @@
 
 /* Begin PBXFileReference section */
 		1D6058910D05DD3D006BFB54 /* ASIHTTPRequest iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ASIHTTPRequest iPhone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D06A00F135CDD31001D3692 /* ASIBase64Transcoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ASIBase64Transcoder.c; sourceTree = "<group>"; };
+		5D06A010135CDD31001D3692 /* ASIBase64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIBase64Transcoder.h; sourceTree = "<group>"; };
+		5D06A011135CDD31001D3692 /* ASIFormDataRequest+OAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASIFormDataRequest+OAuth.h"; sourceTree = "<group>"; };
+		5D06A012135CDD31001D3692 /* ASIFormDataRequest+OAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASIFormDataRequest+OAuth.m"; sourceTree = "<group>"; };
+		5D06A013135CDD31001D3692 /* ASIHTTPRequest+OAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASIHTTPRequest+OAuth.h"; sourceTree = "<group>"; };
+		5D06A014135CDD31001D3692 /* ASIHTTPRequest+OAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASIHTTPRequest+OAuth.m"; sourceTree = "<group>"; };
 		B50C1821121C26DB0055FCAB /* ClientCertificateTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientCertificateTests.h; sourceTree = "<group>"; };
 		B50C1822121C26DB0055FCAB /* ClientCertificateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientCertificateTests.m; sourceTree = "<group>"; };
 		B50C182B121C26FA0055FCAB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -345,6 +360,12 @@
 				B53E6D911257B45800C1E79A /* ASIDataDecompressor.m */,
 				B53E6D941257B45800C1E79A /* ASIDataCompressor.h */,
 				B53E6D931257B45800C1E79A /* ASIDataCompressor.m */,
+				5D06A00F135CDD31001D3692 /* ASIBase64Transcoder.c */,
+				5D06A010135CDD31001D3692 /* ASIBase64Transcoder.h */,
+				5D06A011135CDD31001D3692 /* ASIFormDataRequest+OAuth.h */,
+				5D06A012135CDD31001D3692 /* ASIFormDataRequest+OAuth.m */,
+				5D06A013135CDD31001D3692 /* ASIHTTPRequest+OAuth.h */,
+				5D06A014135CDD31001D3692 /* ASIHTTPRequest+OAuth.m */,
 				B57D0F4412AA7D2300E5F992 /* ASIWebPageRequest */,
 				B5873FC010FF28CA001E145F /* S3 */,
 				B5873FC710FF28CA001E145F /* CloudFiles */,
@@ -741,6 +762,9 @@
 				B57AF5921258B3F1002A1F0C /* WebPageViewController.m in Sources */,
 				B57AF5961258B401002A1F0C /* RequestProgressCell.m in Sources */,
 				B57D0F4912AA7D3600E5F992 /* ASIWebPageRequest.m in Sources */,
+				5D06A015135CDD31001D3692 /* ASIBase64Transcoder.c in Sources */,
+				5D06A018135CDD31001D3692 /* ASIFormDataRequest+OAuth.m in Sources */,
+				5D06A01B135CDD31001D3692 /* ASIHTTPRequest+OAuth.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -784,6 +808,9 @@
 				B50D532C126C87ED0022EA6F /* BlocksTests.m in Sources */,
 				B57D0F4A12AA7D3600E5F992 /* ASIWebPageRequest.m in Sources */,
 				B5BF64EF12FDFC7100CBC324 /* GHUnitIOSTestMain.m in Sources */,
+				5D06A016135CDD31001D3692 /* ASIBase64Transcoder.c in Sources */,
+				5D06A019135CDD31001D3692 /* ASIFormDataRequest+OAuth.m in Sources */,
+				5D06A01C135CDD31001D3692 /* ASIHTTPRequest+OAuth.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -815,6 +842,9 @@
 				B57AF5931258B3F1002A1F0C /* WebPageViewController.m in Sources */,
 				B57AF5971258B401002A1F0C /* RequestProgressCell.m in Sources */,
 				B57D0F4812AA7D3600E5F992 /* ASIWebPageRequest.m in Sources */,
+				5D06A017135CDD31001D3692 /* ASIBase64Transcoder.c in Sources */,
+				5D06A01A135CDD31001D3692 /* ASIFormDataRequest+OAuth.m in Sources */,
+				5D06A01D135CDD31001D3692 /* ASIHTTPRequest+OAuth.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
