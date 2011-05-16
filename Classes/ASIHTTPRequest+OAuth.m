@@ -159,7 +159,7 @@
     for (id key in oauthParams) {
         [params addObject:[NSArray arrayWithObjects:
                            key,
-                           [oauthParams objectForKey:key],
+                           [self URLEncodedString:[oauthParams objectForKey:key]],
                            nil]];
     }
     
